@@ -1,11 +1,12 @@
 
 body{
-    background-image: url("img/balloon-.jpg");
+    background-image: url("img/balloon-3.jpg");
 }
  h1{
      text-align: center;
      color:#ff6666;
  }
+
  h2{
      color:#005682;
  }
@@ -18,4 +19,3 @@ body{
     border-color: #E7E7E7;
     text-align: right
 }
-
