@@ -2,30 +2,20 @@
 body{
     background-image: url("img/balloon-.jpg");
 }
- h1,h2{
+ h1{
      text-align: center;
      color:#ff6666;
+ }
+ h2{
+     color:#005682;
  }
  /*.p{*/
      
  /*}*/
 
- 
-li a.active{
-    display: block;
-    color: #000;
-    padding: 8px 0 8px 16px;
-    text-decoration: none;
- background-color: rgb(63,87,126);
+ .navbar-default {
+    background-color: #ff6666;
+    border-color: #E7E7E7;
+    text-align: right
 }
-li a:hover{
-    background-color:#ccccff;
-}
- a.active {
-    background-color: #4CAF50;
-    color: white;
-}
- li{
-     float:right;
- }
 
