@@ -1,21 +1,29 @@
-
-body{
-    background-image: url("img/balloon-3.jpg");
+body {
+    background-image: url("img/balloon-3.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
- h1{
-     text-align: center;
-     color:#ff6666;
- }
 
- h2{
-     color:#005682;
- }
- /*.p{*/
-     
- /*}*/
+h1 {
+    text-align: center;
+    color: #ff6666;
+    text-shadow: 2px 2px #c0666d;
+}
 
- .navbar-default {
+h2 {
+    color: #005682;
+    text-align: center;
+}
+
+
+/*.p{*/
+
+
+/*}*/
+
+.navbar-default {
     background-color: #ff6666;
     border-color: #E7E7E7;
-    text-align: right
+    text-align: center;
+    font-size: 35px;
 }
