@@ -42,6 +42,7 @@ h2 {
 
 .section {
     padding: 60px 0;
+   
     body {
         background: linear-gradient( rgba(255, 204, 204, 0.4), rgba(0, 0, 0, 0.5)), url("img/balloon-3.jpg") no-repeat center;
         background-size: cover;
