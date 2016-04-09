@@ -22,13 +22,9 @@
 <script>
    $(function(){
      
-      $(".descrip").hide();
-      $("#home").fadeIn(2000);
       
-      $("#info").click(function(){
-        $(this).css("color","red");
-        
-      });
+   
+    
   });
 
 
@@ -51,69 +47,53 @@
     <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-     
-    </div>
-    <ul class="nav navbar-nav nav-hover"  >
+     </div>
+  <ul class="nav navbar-nav "  class="nav nav-tabs">
+   
       <li >
-        <a href="https://preview.c9users.io/christianf9156/web-design/bootstrap/shabr/index.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io"><span class="glyphicon glyphicon-home"></span>Home</a>
+        <a data-toggle="tab" href="#Home"> <span class="glyphicon glyphicon-home"></span>Home</a>
         </li>
       
       <li>
-        <a href="/Info/default.asp" id="info"> <span class="glyphicon glyphicon-book"></span>Info</a>
+        <a data-toggle="tab"  href="#Info"> <span class="glyphicon glyphicon-book"></span>Info</a>
         
         
         </li>
       
       <li>
-        <a href="#Test"><span class="glyphicon glyphicon-globe"></span>Testimonials</a>
+        <a  data-toggle="tab"  href="#Test"> <span class="glyphicon glyphicon-globe"></span>Testimonials</a>
         </li>
      
       <li>
-        <a href="#Contact"><span class="glyphicon glyphicon-phone"></span>Contact</a>
+        <a  data-toggle="tab" href="#Contact"> <span class="glyphicon glyphicon-phone"></span>Contact</a>
         </li>
-    
-    </ul>
-  </div>
-</nav>
+       </ul>
+    </div>
+ </nav>
+ 
+
 
 
  
-<h1>Skydance Hot Air Balloon Rides</h1>
-<h2>Ride with the wind & Dance with the sky</h2>
+<h1 id="logo">Skydance Hot Air Balloon Rides</h1>
+<h2 id="logo2">Ride with the wind & Dance with the sky</h2>
 
 <div class="container">
   <div class="container-fluid">
  
-
-
-     
- 
- <p class="descrip" id="home"> Fun for Everyone
+  <div class="tab-content">
+    <div id="Home" class="tab-pane fade in active">
+     <p class="descrip" id="fun"> Fun for Everyone
 Come make a new memory with us. There's nothing else like it.
 Fun for both adults and kids. All are welcome!
-Afraid of heights? You won't be after you slow-dance with the sky.</p>
-   
-   
-<p class="descrip" id="contact"> We’d love to hear from you
-Address
-SHABR, Inc.
-1234 Shabr Road
-Somewhere, OT 80013
-Phone(555) 555-1234 
-</P>
-
-<p class="descrip" id ="test"> Just a few of our happy customers
-"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!" -- Joan H.
-"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR." -- Marsha N.
-"Thanks so much for making our experience so perfect. I definitely want to go back again! -- Linda T.
-"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!" -- Tammy P.
-"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!" -- Ethel E.
-"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!" -- Mary C.
-</p>
-
-<p class="descrip" class="info">
-  All the information you'll need
-  <ul class="descrip" class="info">
+Afraid of heights? You won't be after you slow-dance with the sky.
+    </p>
+    </div>
+    
+    <div id="Info" class="tab-pane fade">
+      <p class="descrip" >
+  <h2>All the information you'll need</h2>
+  <ul class="descrip" >
     <li>Time</li>
     <ol>
       <li>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November.</li> <li> Since our launch times vary through the seasons, we ask all our guests to call ahead for the exact meeting time.</li>
@@ -135,6 +115,37 @@ Phone(555) 555-1234
    </ol>
   </ul>
 </p>
+</div>
+    
+    <div id="Testimonials" class="tab-pane fade">
+   
+<p class="descrip"> Just a few of our happy customers
+"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!" -- Joan H.
+"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR." -- Marsha N.
+"Thanks so much for making our experience so perfect. I definitely want to go back again! -- Linda T.
+"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!" -- Tammy P.
+"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!" -- Ethel E.
+"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!" -- Mary C.
+</p>    
+    </div>
+    
+    <div id="menu3" class="tab-pane fade">
+     
+<p class="descrip" id="contact"> We’d love to hear from you
+Address
+SHABR, Inc.
+1234 Shabr Road
+Somewhere, OT 80013
+Phone(555) 555-1234 
+</P>
+    </div>
+  </div>
+</div>
+ 
+   
+   
+
+
 
 
  </div>
