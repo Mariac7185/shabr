@@ -1,9 +1,10 @@
 html,
 body {
     height: 100%;
-    /*background-image: url("img/balloon-1.jpg") ;*/
-    /*background-repeat: no-repeat;*/
+    background-image: url("img/balloon-1.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    /*background:linear-gradient(rgba(255,204,204,0.4),rgba(0,0,0,0.5)),url("img/balloon-1.jpg");*/
 }
 
 .navbar-default {
@@ -12,6 +13,9 @@ body {
     text-align: center;
     font-size: 35px;
     overflow: hidden;
+    color: #ff6666;
+    text-shadow: 2px 2px #c0666d;
+    position: center;
 }
 
 h1 {
@@ -29,8 +33,8 @@ h2 {
 .width {
     width: 100%;
     text-shadow: 2px 2px #3399ff;
+    position: center;
 }
-
 
 .height {
     height: 100%;
@@ -43,17 +47,13 @@ h2 {
 
 .section {
     padding: 60px 0;
-   
-    body {
-        background: linear-gradient( rgba(255, 204, 204, 0.4), rgba(0, 0, 0, 0.5)), url("img/balloon-3.jpg") no-repeat center;
-        background-size: cover;
-        display: table;
-    }
-    .myCarousel {
-        alignment-baseline: middle;
-    }
-
-#home{
-      
+    background: linear-gradient( rgba(255, 204, 204, 0.4), rgba(0, 0, 0, 0.5)), url("img/balloon-3.jpg") no-repeat center;
+    background-size: cover;
+    display: table;
 }
 
+.myCarousel {
+    alignment-baseline: middle;
+}
+
+#home {}
