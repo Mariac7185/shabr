@@ -21,18 +21,25 @@ h1 {
     text-align: center;
     color: #ff6666;
     text-shadow: 3px 2px #c0666d;
+    font-family: 'Poiret One', cursive;
+    
 }
-
+h2{
+    color:#4545b0;
+    font-family: 'Poiret One', cursive;
+}
 
 #logo2 {
     color: #005682;
     text-align: center;
     text-shadow: 3px 4px #c0666d;
+    font-family: 'Poiret One', cursive;
 }
 
 .width {
     width: 100%;
     text-shadow: 2px 2px #3399ff;
+    
 }
 
 .height {
@@ -58,10 +65,26 @@ h1 {
 .descrip{
     color:#FFFFFF;
     font-size:32px;
+    font-family: 'Poiret One', cursive;
 }
 .info{
     font-size: 32px;
-   
     color: #FFFFFF;
+    font-family: 'Poiret One', cursive;
    
+}
+.descripC{
+    font-size:32px;
+    color:#FFFFFF;
+    font-family: 'Poiret One', cursive;
+}
+.descripC2{
+    font-size:32px;
+    color :#FFFFFF;
+    font-family: 'Poiret One', cursive;
+}
+.descrip3{
+    font-size:32px;
+    color :#FFFFFF;
+    font-family: 'Poiret One', cursive;
 }
