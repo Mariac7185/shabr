@@ -46,6 +46,7 @@ h2{
     height: 100%;
 }
 
+<<<<<<< HEAD
 .vert-center {
     display: table-cell;
     vertical-align: middle;
@@ -88,3 +89,35 @@ h2{
     color :#FFFFFF;
     font-family: 'Poiret One', cursive;
 }
+=======
+#fun{
+    font-size:40px;
+    color:#ccffff;
+    text-shadow: 2px 3px 9px;
+}
+
+#T-info{
+    font-size:30px;
+    color:#00ffff;
+      text-shadow: 2px 3px 9px;
+}
+
+#All-info{
+    font-size:20px;
+     color:#00ffff;
+      text-shadow: 2px 3px 9px;
+}
+
+.reviews{
+    font-size:25px;
+    color:#ffbf80;
+      text-shadow: 2px 3px 9px;
+}
+
+#reach-us{
+    font-size:35px;
+    color:#00ff99;
+      text-shadow: 2px 3px 9px;
+}
+
+>>>>>>> 41e701f93b30f12cc668c3d1d715f75ff2f8dcd3
