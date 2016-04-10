@@ -19,7 +19,32 @@ body {
  }
 
 #fun{
+    font-size:40px;
     color:#ccffff;
     text-shadow: 2px 3px 9px;
+}
+
+#T-info{
+    font-size:30px;
+    color:#00ffff;
+      text-shadow: 2px 3px 9px;
+}
+
+#All-info{
+    font-size:20px;
+     color:#00ffff;
+      text-shadow: 2px 3px 9px;
+}
+
+#reviews{
+    font-size:25px;
+    color:#ffbf80;
+      text-shadow: 2px 3px 9px;
+}
+
+#reach-us{
+    font-size:35px;
+    color:#00ff99;
+      text-shadow: 2px 3px 9px;
 }
 
