@@ -23,10 +23,11 @@ h1 {
     text-shadow: 3px 2px #c0666d;
 }
 
+
 #logo2 {
     color: #005682;
     text-align: center;
-    text-shadow: 3px 2px #c0666d;
+    text-shadow: 3px 4px #c0666d;
 }
 
 .width {
@@ -55,12 +56,12 @@ h1 {
 }
 
 .descrip{
-    color:#31698a;
+    color:#FFFFFF;
     font-size:32px;
 }
 .info{
     font-size: 32px;
-    text-shadow: 2px 2px 4px;
-    color: #31698a;
+   
+    color: #FFFFFF;
    
 }
