@@ -54,10 +54,7 @@ h1 {
     alignment-baseline: middle;
 }
 
-#home {}
-
-
-   .conditions {
-       text-align: center;
-    font-size: 35px;
-    }
+.descrip{
+    color:#ff6666;
+    font-size:32px;
+}
