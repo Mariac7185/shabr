@@ -46,50 +46,50 @@ h2{
     height: 100%;
 }
 
-<<<<<<< HEAD
-.vert-center {
-    display: table-cell;
-    vertical-align: middle;
-}
 
-.section {
-    padding: 60px 0;
-    background: linear-gradient( rgba(255, 204, 204, 0.4), rgba(0, 0, 0, 0.5)), url("img/balloon-3.jpg") no-repeat center;
-    background-size: cover;
-    display: table;
-}
+/*.vert-center {*/
+/*    display: table-cell;*/
+/*    vertical-align: middle;*/
+/*}*/
 
-.myCarousel {
-    alignment-baseline: middle;
-}
+/*.section {*/
+/*    padding: 60px 0;*/
+/*    background: linear-gradient( rgba(255, 204, 204, 0.4), rgba(0, 0, 0, 0.5)), url("img/balloon-3.jpg") no-repeat center;*/
+/*    background-size: cover;*/
+/*    display: table;*/
+/*}*/
 
-.descrip{
-    color:#FFFFFF;
-    font-size:32px;
-    font-family: 'Poiret One', cursive;
-}
-.info{
-    font-size: 32px;
-    color: #FFFFFF;
-    font-family: 'Poiret One', cursive;
+/*.myCarousel {*/
+/*    alignment-baseline: middle;*/
+/*}*/
+
+/*.descrip{*/
+/*    color:#FFFFFF;*/
+/*    font-size:32px;*/
+/*    font-family: 'Poiret One', cursive;*/
+/*}*/
+/*.info{*/
+/*    font-size: 32px;*/
+/*    color: #FFFFFF;*/
+/*    font-family: 'Poiret One', cursive;*/
    
-}
-.descripC{
-    font-size:32px;
-    color:#FFFFFF;
-    font-family: 'Poiret One', cursive;
-}
-.descripC2{
-    font-size:32px;
-    color :#FFFFFF;
-    font-family: 'Poiret One', cursive;
-}
-.descrip3{
-    font-size:32px;
-    color :#FFFFFF;
-    font-family: 'Poiret One', cursive;
-}
-=======
+/*}*/
+/*.descripC{*/
+/*    font-size:32px;*/
+/*    color:#FFFFFF;*/
+/*    font-family: 'Poiret One', cursive;*/
+/*}*/
+/*.descripC2{*/
+/*    font-size:32px;*/
+/*    color :#FFFFFF;*/
+/*    font-family: 'Poiret One', cursive;*/
+/*}*/
+/*.descrip3{*/
+/*    font-size:32px;*/
+/*    color :#FFFFFF;*/
+/*    font-family: 'Poiret One', cursive;*/
+/*}*/
+/*=======*/
 #fun{
     font-size:40px;
     color:#ccffff;
@@ -120,4 +120,3 @@ h2{
       text-shadow: 2px 3px 9px;
 }
 
->>>>>>> 41e701f93b30f12cc668c3d1d715f75ff2f8dcd3
