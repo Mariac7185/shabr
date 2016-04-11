@@ -20,20 +20,22 @@ body {
 h1 {
     text-align: center;
     color: #ff6666;
-    text-shadow: 3px 2px #c0666d;
+    text-shadow: 2px 3px #c0666d;
     font-family: 'Poiret One', cursive;
     
 }
 h2{
     color:#4545b0;
     font-family: 'Poiret One', cursive;
+    
 }
 
 #logo2 {
-    color: #005682;
+    
     text-align: center;
-    text-shadow: 3px 4px #c0666d;
+    text-shadow: 2px 4px #c0666d;
     font-family: 'Poiret One', cursive;
+     color:#eed5d2;
 }
 
 .width {
@@ -46,77 +48,39 @@ h2{
     height: 100%;
 }
 
-
-/*.vert-center {*/
-/*    display: table-cell;*/
-/*    vertical-align: middle;*/
-/*}*/
-
-/*.section {*/
-/*    padding: 60px 0;*/
-/*    background: linear-gradient( rgba(255, 204, 204, 0.4), rgba(0, 0, 0, 0.5)), url("img/balloon-3.jpg") no-repeat center;*/
-/*    background-size: cover;*/
-/*    display: table;*/
-/*}*/
-
-/*.myCarousel {*/
-/*    alignment-baseline: middle;*/
-/*}*/
-
-/*.descrip{*/
-/*    color:#FFFFFF;*/
-/*    font-size:32px;*/
-/*    font-family: 'Poiret One', cursive;*/
-/*}*/
-/*.info{*/
-/*    font-size: 32px;*/
-/*    color: #FFFFFF;*/
-/*    font-family: 'Poiret One', cursive;*/
-   
-/*}*/
-/*.descripC{*/
-/*    font-size:32px;*/
-/*    color:#FFFFFF;*/
-/*    font-family: 'Poiret One', cursive;*/
-/*}*/
-/*.descripC2{*/
-/*    font-size:32px;*/
-/*    color :#FFFFFF;*/
-/*    font-family: 'Poiret One', cursive;*/
-/*}*/
-/*.descrip3{*/
-/*    font-size:32px;*/
-/*    color :#FFFFFF;*/
-/*    font-family: 'Poiret One', cursive;*/
-/*}*/
-/*=======*/
 #fun{
     font-size:40px;
-    color:#ccffff;
+    color:#FFFFFF;
     text-shadow: 2px 3px 9px;
+    font-family:'Poiret One',cursive
 }
 
 #T-info{
-    font-size:30px;
-    color:#00ffff;
+    font-size:40px;
+    color:#b3d4fc;
       text-shadow: 2px 3px 9px;
+      font-family:'Poiret One',cursive
 }
 
 #All-info{
     font-size:20px;
-     color:#00ffff;
-      text-shadow: 2px 3px 9px;
+    color:#c47edd;
+    font-weight: 900;
+      text-shadow: 8px 9px 9px;
+      font-family:'Poiret One',cursive
 }
 
 .reviews{
     font-size:25px;
     color:#ffbf80;
       text-shadow: 2px 3px 9px;
+      font-family:'Poiret One',cursive
 }
 
 #reach-us{
     font-size:35px;
-    color:#00ff99;
+    color:#d2b48c;
       text-shadow: 2px 3px 9px;
+      font-family:'Poiret One',cursive
 }
 
