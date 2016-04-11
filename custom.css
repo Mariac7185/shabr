@@ -9,7 +9,7 @@ body {
     background-image: url("img/balloon-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /*background:linear-gradient(rgba(255,204,204,0.4),rgba(0,0,0,0.5)),url("img/balloon-1.jpg");*/
+    
 }
 
 .navbar-default {
