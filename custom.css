@@ -1,9 +1,4 @@
-@media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-html,
+
 body {
     height: 100%;
     background-image: url("img/balloon-1.jpg");
@@ -12,20 +7,12 @@ body {
     
 }
 
-.navbar-default {
-    background-color: #ff6666;
-    border-color: #E7E7E7;
-    text-align: center;
-    font-size: 35px;
-    overflow: hidden;
-    color: #ff6666;
-    text-shadow: 2px 2px #c0666d;
-}
+
 
 h1 {
     text-align: center;
     color: #ff6666;
-    text-shadow: 2px 3px #c0666d;
+    text-shadow: 2px 3px #c0666;
     font-family: 'Poiret One', cursive;
     
 }
@@ -38,9 +25,9 @@ h2{
 #logo2 {
     
     text-align: center;
-    text-shadow: 2px 4px #c0666d;
+    text-shadow: 2px 4px #0066ff;
     font-family: 'Poiret One', cursive;
-     color:#eed5d2;
+     color:#3399ff; 
 }
 
 .width {
@@ -62,17 +49,17 @@ h2{
 
 #T-info{
     font-size:40px;
-    color:#b3d4fc;
-      text-shadow: 2px 3px 9px;
+    color:#00ccff;
+      text-shadow: 2px 2px 3px;
       font-family:'Poiret One',cursive
 }
 
 #All-info{
     font-size:20px;
-    color:#FFFFFF;
-    font-weight: 900;
-      text-shadow: 8px 9px 9px;
-      font-family:'Poiret One',cursive
+    color:#66ffff;
+    
+      
+     
 }
 
 .reviews{
