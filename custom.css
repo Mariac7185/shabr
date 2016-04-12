@@ -12,20 +12,16 @@ body {
 h1 {
     text-align: center;
     color: #ff6666;
-    text-shadow: 2px 3px #c0666;
-    font-family: 'Poiret One', cursive;
-    
-}
-h2{
-    color:#4545b0;
+    text-shadow: 2px 2px 5px ;
     font-family: 'Poiret One', cursive;
     
 }
 
+
 #logo2 {
     
     text-align: center;
-    text-shadow: 2px 4px #0066ff;
+    text-shadow: 2px 3px #0066ff;
     font-family: 'Poiret One', cursive;
      color:#3399ff; 
 }
@@ -64,14 +60,20 @@ h2{
 
 .reviews{
     font-size:25px;
-    color:#ffbf80;
-      text-shadow: 2px 3px 9px;
+    color:#DAA520;
+      text-shadow: 2px 2px 10px;
       font-family:'Poiret One',cursive
+}
+
+#customers{
+    color:#DAA520;
+    font-family: 'Poiret One', cursive;
+    
 }
 
 #reach-us{
     font-size:35px;
-    color:#d2b48c;
+    color:#DAA520;
       text-shadow: 2px 3px 9px;
       font-family:'Poiret One',cursive
 }
@@ -85,5 +87,13 @@ h3{
 #section1 {
    
   background-color:#eed5d2;
+}
+
+@media screen and (min-width: 500px){
+    body{
+     background-color:black;
+
+   
+    }
 }
 
